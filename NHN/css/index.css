@@ -1,0 +1,27 @@
+*{margin: 0;padding: 0;}
+.wrap{width: 1200px;height: 1350px;margin: 0 auto;}
+header{width: 100%;height: 70px;background: rgb(44, 41, 41);}
+.logo{width: 200px;height: 33px;;float: left;top: 20px;position: relative;left: 20px;}
+nav {width: 204px;height: 30px;float: right;position: relative;top: 20px;right: 30px;}
+nav > ul > li{width: 100px;height: 30px;float: left;list-style: none;text-align: center;line-height: 30px;
+border: 1px solid white;color: white;}
+section{width: 100%;height: 1100px;}
+#box1{float: left;}
+#box2{float: right;}
+.abox{width: 600px;height: 550px;}
+.abox > img{position: absolute;z-index: -1;}
+.table1{text-align: center;color: white;width: 600px;position: relative;top: 400px;left: 5px;}
+thead{text-align: center;}
+.link{font-size: 13px;}
+.link > a{text-decoration: none;color: #a5a5a5;}
+tbody{text-align: left;}
+.box3{width: 1200px;height: 650px;}
+.box3 > img{z-index: -1;width: 1201px;}
+#box3_p{position: absolute;top: 630px;left: 800px;font-size: 30px;font-weight: bold;color: white;}
+footer{width: 100%;height: 180px;position: relative;top:100px;background: rgb(44, 41, 41)}
+.f_1{color: white;height: auto;line-height: 50px;width: 600px;font-size: 13.5px;
+border-bottom: 1px soild white;position: relative;position: relative;}
+#r_1{float: right;text-align: right;right: 50px}
+#l_1{float: left;left: 50px;}
+.line{width: 1100px;height: 50px;border-bottom: 1px solid white;position: absolute;left: 50px;}
+.f_2{font-size: 13px;position: relative;left:50px;float: left;color: #a5a7a8}
