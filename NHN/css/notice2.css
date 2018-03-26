@@ -13,3 +13,5 @@ nav > ul > li >a:hover{color: red;}
 .box_2{width: 373px;height: 35px;float: right;text-align: center;position: relative;top: 10px;border: 1px solid gray;line-height: 35px;border-top: black solid 1.5px;font-weight: bold;}
 .box_1:hover{color: white;background: #4a4446;}
 .box_2:hover{color: white;background: #4a4446;}
+.grayNHN{width: 130px;height: 130px;float: left;margin-top: 20px;}
+.grayNHN > img{width: 130px;height: 130px;position: relative;top: 20px;}
