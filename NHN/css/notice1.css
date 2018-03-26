@@ -21,8 +21,11 @@ tbody > tr > td > p{line-height: 40px;color: gray;}
 #line_1{border-top: 0.5px solid gray;}
 #line_2{border-top: 2px solid black;}
 .box_1{float: right;width: 800px;height: 750px;}
-.number_1{width: 30px;height: 30px;background: black;text-align: center;color: white;line-height: 30px;margin: 0 auto;}
-.graybox{width: 280px;background: #dbd6d6;height: 35px;line-height: 35px;margin: 0 auto;position: relative;top: 10px;border: 1px solid #b5b5b5;}
+.box_2{width: 800px;height: 30px;text-align: center;}
+.number_1{width: 30px;height: 30px;background: black;color: white;}
+.box_3{width: 800px;height: 35px;text-align: center;}
+.graybox{width: 280px;background: #e6e1e1;height: 35px;margin: 0 auto;position: relative;top: 10px;}
+
 .N_footer{width: 800px;height: 80px;float: right;background: #f1f1f1;border-bottom: 1px solid #cccccc;border-top: 1px solid #cccccc;
 color: #b3b3b3;font-size: 10px;text-align: right;line-height: 40px;}
 span{font-weight: bold;color: red;}

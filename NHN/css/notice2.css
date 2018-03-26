@@ -1,1 +1,15 @@
 *{margin: 0;padding: 0;}
+.wrap_n2{width: 1400px;height: 1170px;margin: 0 auto;}
+header{width: 100%;height: 70px;background: rgb(44, 41, 41);}
+.logo{width: 200px;height: 33px;;float: left;top: 20px;position: relative;left: 20px;}
+nav {width: 306px;height: 30px;float: right;position: relative;top: 20px;right: 30px;}
+nav > ul > li{width: 100px;height: 30px;float: left;list-style: none;text-align: center;line-height: 30px;font-weight: bold;}
+nav > ul > li >a{color: white;text-decoration: none;}
+nav > ul > li >a:hover{color: red;}
+.b_box{height: 1100px;width: 580px;float: left;}
+.b_box > img{height: 1100px;width: 580px;}
+.notice_2{width: 750px;height: 1000px;float: left;margin-top: 30px;margin-left: 50px;}
+.box_1{width: 373px;height: 35px;float: left;text-align: center;position: relative;top: 10px;border: 1px solid gray;line-height: 35px;border-top: black solid 1.5px;font-weight: bold;}
+.box_2{width: 373px;height: 35px;float: right;text-align: center;position: relative;top: 10px;border: 1px solid gray;line-height: 35px;border-top: black solid 1.5px;font-weight: bold;}
+.box_1:hover{color: white;background: #4a4446;}
+.box_2:hover{color: white;background: #4a4446;}
