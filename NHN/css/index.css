@@ -5,6 +5,7 @@ header{width: 100%;height: 70px;background: rgb(44, 41, 41);}
 nav {width: 204px;height: 30px;float: right;position: relative;top: 20px;right: 30px;}
 nav > ul > li{width: 100px;height: 30px;float: left;list-style: none;text-align: center;line-height: 30px;
 border: 1px solid white;color: white;}
+nav>ul>li>a{color:white;text-decoration:none;}
 section{width: 100%;height: 1100px;}
 #box1{float: left;}
 #box2{float: right;}
