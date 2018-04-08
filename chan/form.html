@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{background: #ececee;}
+        *{margin: 0;padding: 0;}
+        #sign{width: 1000px;height:1038px;margin: 0 auto;background: white;}
+        #sign_wrap{width: 700px; margin: 0  auto;}
+        .chanhead{width: 1000px;height: 80px;margin: 0 auto;border-bottom: 1px solid #e6e6e6;}
+        .logo_chan{width: 128px;height: 70px;margin: 0 auto;padding-top: 10px;}
+        .logo_chan > img{width: 128px;height: 55px;display: inline;}
+        .wrap_tit{width: 620px;height: 76px;margin: 0 auto;padding: 30px;}
+        .font_tit{font-size: 24px;text-align: center;font-weight: normal;}
+        .txt_1{padding-top: 7px;font-size: 16px;color: #767676;text-align: center;}
+        .id_item{height: 54px;}
+        .id_item>dt,dd{display: inline-block;}
+        .id_pw>dt,dd{display: inline-block;}
+        .id_name>dt,dd{display: inline-block;}
+        .id_address>dt,dd{display: inline-block;}
+        dt{width: 140px;height: 40px;line-height: 40px;}
+        input{width: 438px;height: 38px;}
+        .id_item{margin-top: 30px;}
+        #box{width: 620px;height: 195px;margin: 0 auto;border-top: 1px solid #e6e6e6;border-bottom: 1px solid #e6e6e6;}
+        #box_2{width: 620px;height: 135px;margin: 0 auto;margin-top: 20px;border-bottom: 1px solid #e6e6e6;}
+        .id_name{padding-top: 10px;}
+        .id_address{padding-top: 10px;}
+        #bt{height: 120px}
+        #ok{width: 220px;height: 60px;margin: 0  auto;background: #e8262d;border:#e8262d;font-size:20px;color: white;display: block;margin-top: 20px;}
+        #id{text-indent: 15px;border: 0.5px solid #d1d1d1;}
+        #password{text-indent: 15px;border: 0.5px solid #d1d1d1;}
+        #pwd_chk{text-indent: 15px;border: 0.5px solid #d1d1d1;}
+        #name{text-indent: 15px;border: 0.5px solid #d1d1d1;}
+        #address{text-indent: 15px;border: 0.5px solid #d1d1d1;}
+        .footer_chan{text-align: center;height: 115px;width: 620px;margin: 0 auto;border-top:  1px solid #e6e6e6;margin-top: 20px;}
+        #footer_1{font-size: 12px;padding: 10px;font-weight: bold;}
+        #footer_2{font-size: 12px;color: #767676;}
+        .span_1{color: #d4d4d4;}
+    </style>
+</head>
+<body>
+<div id="sign">
+   <div class="chanhead">
+   <div class="logo_chan">
+    <img src="./img/logo.png" alt="logo_chan"></div>
+</div>
+    <div class="wrap_tit">
+        <h3 class="font_tit">가입정보입력</h3>
+        <div class="txt_1">
+            로그인 정보 및 가입 정보를 입력하세요
+        </div>
+    </div>
+    <div id="sign_wrap">
+        <form action="">
+    <div id="box">
+    <dl class="id_item">
+        <dt><label for="id">아이디</label></dt>
+        <dd><input type="text"placeholder="아이디" name="id" id="id"></dd>
+    </dl>
+    <dl class="id_pw">
+        <dt><label for="password">비밀번호</label></dt>
+        <dd><input type="password" id="password" name="password" placeholder="비밀번호"></dd>
+        <dt><label for="pwd_chk">비밀번호 재확인</label></dt>
+        <dd><input type="password" id="pwd_chk" name="pwd_chk" placeholder="비밀번호 재확인"></dd>
+    </dl>
+    </div>
+            <div id="box_2">
+    <dl class="id_name">
+        <dt><label for="name">이름</label></dt>
+        <dd><input type="text"id="name" name="name" placeholder="이름"></dd>
+    </dl>
+    <dl class="id_address">
+        <dt><label for="address">이메일 주소</label></dt>
+        <dd><input type="text" id="address" name="address" placeholder="이메일"></dd>
+    </dl>
+
+            </div>
+            <div id="bt">
+            <button id="ok">확인</button></div>
+</form>
+    </div>
+    <div class="footer_chan">
+        <p id="footer_1">서비스약관 <span class="span_1">|</span> 개인정보처리약관 <span class="span_1">|</span> 회원가입 도움말</p>
+        <p id="footer_2">©Chan Corp.</p>
+    </div>
+</div>
+</body>
+</html>
