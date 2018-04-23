@@ -28,7 +28,22 @@ nav > ul > li > ul > li{width: 100px;margin-left: 20px;height: 0px;overflow: hid
 nav > ul > li > ul > li > a{color: #444444;}
 
 .content_wrap{width: 1000px;height: 600px;}
-.slide_box{width: 1000px;height: 400px;overflow: hidden;position: relative;margin-top: 10px;}
-.slide_box > li{height: 400px;width: 1000px;position: absolute;left: -1000px;}
-.slide_box > li > img{width: 1000px;height: 400px;position: absolute;}
+.slide_box{width: 1000px;height: 300px;overflow: hidden;position: relative;margin-top: 10px;}
+.slide_box > li{height: 300px;width: 1000px;position: absolute;left: -1000px;}
+.slide_box > li > img{width: 1000px;height: 300px;position: absolute;}
 .slide_box > li:first-child{left: 0;}
+.table_box{width: 700px;height: 200px;border:1px solid #e2e2e2;margin-top: 10px;float: left;margin-left: 5px;}
+#table_1{width: 700px;height: 200px;}
+#table_1 > thead > tr > #plus_view{width: 60px;height:25px;left: 400px;position: relative;line-height: 25px;border-bottom: 1px solid #e2e2e2;}
+#table_1 > thead > tr > #plus_view > a{font-size: 12px;color: #444444;}
+#table_1 > thead > tr > th {width: 100px;float: left;}
+#table_1 > thead > tr > th > a{font-size: 18px;color: black;}
+#table_1 > thead > tr > th > a:hover{color: #7bc9dd;}
+#table_1 > tbody > tr > td > a{font-size: 14px;margin-left: 15px;}
+#pop_box{width: 280px;height: 400px;float: left;margin-top: 10px;overflow: hidden;margin-left: 5px;position: relative;}
+#pop_box > li {width: 280px;height: 400px; left: -280px;position: absolute;}
+#pop_box > li:first-child {left: 0;}
+#pop_box > li > img{width: 280px;height: 400px;}
+#pop_box > li > a > img {width: 280px;height: 400px;}
+
+
