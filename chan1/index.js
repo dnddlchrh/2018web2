@@ -11,8 +11,8 @@ $(document).ready(function () {
             num=0;
     }
     function pop_box_s() {
-        $('#pop_box li').eq(num1).animate({left:-280},0);
-        $('#pop_box li').eq(num1-1).animate({left:280},500);
+        $('#pop_box li').eq(num1).animate({left:-285},0);
+        $('#pop_box li').eq(num1-1).animate({left:285},500);
         $('#pop_box li').eq(num1).animate({left:0},500);
         num1++;
         if(num1>=3)
