@@ -22,7 +22,7 @@ $(document).ready(function () {
     }
     function popup() {
         $('.pop_box').click(function () {
-            $('.del_box').css();
+            $('.del_box').fadeIn();
         });
         $('.del').click(function () {
             $('.del_box').fadeOut();
