@@ -57,7 +57,7 @@ nav > ul > li > ul > li > a{color: #444444;}
 .right{font-size: 14px;text-align: center;}
 
 .gallery{float: left;width: 700px;height: 200px; margin-top: 10px;margin-left: 5px;}
-.calender{float: left;width: 343px;height: 200px; border:1px solid #e2e2e2;}
+.calender{float: left;width: 343px;height: 200px; border:1px solid #e2e2e2;user-select: none;}
 .c_t{width: 343px;height: 40px;}
 .c_year_date{font-size: 13px;color: #a5a5a5;}
 .c_t > p{text-align: center;font-weight: bold;}
