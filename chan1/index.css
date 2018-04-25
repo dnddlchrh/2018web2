@@ -28,7 +28,7 @@ nav > ul > li > ul > li{width: 100px;margin-left: 20px;height: 0px;overflow: hid
 nav > ul > li > ul > li > a{color: #444444;}
 
 .table_all{width: 700px;height: 200px;border:1px solid #e2e2e2;margin-top: 10px;float: left;margin-left: 5px;}
-.content_wrap{width: 1000px;height: 800px;}
+.content_wrap{width: 1000px;height: 750px;}
 .slide_box{width: 1000px;height: 300px;overflow: hidden;position: relative;margin-top: 10px;}
 .slide_box > li{height: 300px;width: 1000px;position: absolute;left: -1000px;}
 .slide_box > li > img{width: 1000px;height: 300px;position: absolute;}
