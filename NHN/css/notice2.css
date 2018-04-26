@@ -8,10 +8,25 @@ nav > ul > li >a{color: white;text-decoration: none;}
 nav > ul > li >a:hover{color: red;}
 .b_box{height: 1100px;width: 580px;float: left;}
 .b_box > img{height: 1100px;width: 580px;}
-.notice_2{width: 750px;height: 1000px;float: left;margin-top: 30px;margin-left: 50px;}
-.box_1{width: 373px;height: 35px;float: left;text-align: center;position: relative;top: 10px;border: 1px solid gray;line-height: 35px;border-top: black solid 1.5px;font-weight: bold;}
-.box_2{width: 373px;height: 35px;float: right;text-align: center;position: relative;top: 10px;border: 1px solid gray;line-height: 35px;border-top: black solid 1.5px;font-weight: bold;}
+.notice_2{width: 750px;height: 1100px;float: left;margin-top: 30px;margin-left: 50px;}
+.box_1{width: 373px;height: 35px;float: left;text-align: center;position: relative;top: 10px;border: 1px solid gray;line-height: 35px;border-top: black solid 1.5px;font-weight: bold;cursor: pointer;}
+.box_2{width: 373px;height: 35px;float: right;text-align: center;position: relative;top: 10px;border: 1px solid gray;line-height: 35px;border-top: black solid 1.5px;font-weight: bold;cursor: pointer;}
 .box_1:hover{color: white;background: #4a4446;}
 .box_2:hover{color: white;background: #4a4446;}
-.grayNHN{width: 130px;height: 130px;float: left;margin-top: 20px;}
+.grayNHN{width: 130px;height: 130px;float: left;margin-top: 20px;user-select: none;}
 .grayNHN > img{width: 130px;height: 130px;position: relative;top: 20px;}
+#nt_2{width: 600px;height: auto;float: left;margin-top: 50px;margin-left: 20px;border-collapse : collapse;}
+#nt_2 > thead{height: 50px;}
+.taget{text-align: center;}
+.job{padding-left: 10px;text-align: center;}
+.time{text-align: center;}
+#top_table > td{border-bottom: 1px solid black;border-top: 1px solid black;font-weight: bold;text-align: center;padding-bottom: 10px;padding-top: 10px;}
+#s_table > tr > td{font-size: 13px;}
+#s_table > tr > td{height: 50px;}
+.button_1{text-align: center;width: 105px;}
+.red_bt{background:red;color: white;border: 1px solid red;width: 60px;height: 30px;}
+.gray_bt{width: 40px;height: 30px;}
+.N_footer{width: 800px;height: 80px;float: right;background: #f1f1f1;border-bottom: 1px solid #cccccc;border-top: 1px solid #cccccc;
+    color: #b3b3b3;font-size: 10px;text-align: right;line-height: 40px;}
+span{font-weight: bold;color: red;}
+#box_1{float: right;width: 800px;height: 575px;}
