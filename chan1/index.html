@@ -8,14 +8,27 @@
         <script src="index.js"></script>
     </head>
 <body>
-<div class="del_box"><div class="del2"><div class="box1"><img src="img/b_lunch.jpg" alt="lunch"/></div><button class="del">닫기</button></div></div>
+<div class="del_box" id="del_box1"><div class="del2"><div class="box1"><img src="img/b_lunch.jpg" alt="lunch"/></div><button class="del">닫기</button></div></div>
+<div class="del_box" id="del_box2"><div class="del2"><div class="box1">
+    <div id="box">
+        <img src="img/logo.PNG" alt="logo"/>
+        <dl class="id_item">
+            <dd><input type="text" placeholder="아이디" name="id" id="id"></dd>
+        </dl>
+        <dl class="id_pw">
+            <dd><input type="password" id="password" name="password" placeholder="비밀번호"></dd>
+        </dl>
+        <div id="bt">
+            <button id="ok">확인</button></div>
+    </div>
+</div><button class="del">닫기</button></div></div>
 <div class="wrap">
     <div id="wrap_header">
         <div class="wrap_header_1">
             <div class="logo"><a href="index.html"><img src="img/logo.PNG" alt="logo"/></a></div>
             <div class="menu_1">
-                <div class="box"><a href="#">회원가입</a></div>
-                <div class="box"><a href="#">로그인</a></div>
+                <div class="box"><a href="form.html">회원가입</a></div>
+                <div class="box"><a href="#"><p id="login">로그인</p></a></div>
                 <div class="box"><a href="index.html">홈</a></div>
                 <div class="box"><a href="#">사이트맵</a></div>
             </div>

@@ -25,12 +25,20 @@ $(document).ready(function () {
             num1=0;
         }
     }
-    function popup() {
+    function popup1() {
         $(".l_m > img").click(function () {
-            $('.del_box').fadeIn();
+            $('#del_box1').fadeIn();
         });
         $('.del').click(function () {
-            $('.del_box').fadeOut();
+            $('#del_box1').fadeOut();
+        });
+    }
+    function popup2() {
+        $("#login").click(function () {
+            $('#del_box2').fadeIn();
+        });
+        $('.del').click(function () {
+            $('#del_box2').fadeOut();
         });
     }
     function table_click() {
@@ -88,7 +96,8 @@ $(document).ready(function () {
     $('.c_year_date').text(nowyear+"-"+nowmonth+"-"+nowday);
     left_button();
     right_button();
-    popup();
+    popup1();
+    popup2();
     table_click();
     setInterval(slide_box,2500);
     setInterval(pop_box_s,3500);
