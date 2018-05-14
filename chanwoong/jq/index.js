@@ -1,39 +1,55 @@
 $(document).ready(function () {
-        var num=1;
         var num1=1;
-    var slide_index = 0;
+        var current=0;
         var dt=new Date();
         var nowyear = dt.getFullYear();
         var nowday = dt.getDate();
         var nowmonth = dt.getMonth()+1;
         var length=new Date(nowyear,nowmonth,0).getDate();
+        var max=$(".slide_box > li").length - 1, width = $(".slide_box > li > img").width();
 
-
+    function navbox_color(){
+        if(current==0){
+            $("#subnav li").css({"background" : "none"})
+            $("#subnav li").eq(current).css({"background" : "white"});
+        }else if(current == 1){
+            $("#subnav li").css({"background" : "none"})
+            $("#subnav li").eq(current).css({"background" : "white"});
+        }else if(current == 2){
+            $("#subnav li").css({"background" : "none"})
+            $("#subnav li").eq(current).css({"background" : "white"});
+        }
+    }
+    navbox_color();
+    $("#subnav li").click(function () {
+        if($('.slide_box > li').is(':animated'))return false;
+        var index = $(this).index();
+        current = index;
+        slide(current);
+    });
     function slide_box() {
         if($('.slide_box > li').is(':animated'))return false;
-        $('.slide_box li').eq(num).animate({left:-1000},0);
-        $('.slide_box li').eq(num-1).animate({left:1000},500);
-        $('.slide_box li').eq(num).animate({left:0},500);
-
-        num++;
-        if(num>=3)
-            num=0;
+        if(current >= max){
+            current = 0;
+            slide(current);
+        }else if(current < max) {
+            current++;
+            slide(current);
+        }
     }
-    $('#left_button').click(function () {
-        console.log(333);
-        if($('.slide_box > li').is(':animated'))return false;
-        slide_box(num-1);
-        if(num>=3)
-            num=1;
+    function slide(idx){
+        navbox_color();
+        $(".slide_box").animate({"margin-left" : -width * idx, "opacity" : 1}, 500);
+    }
+    setInterval(slide_box,3000);
 
+    $('#next').click(function () {
+        navbox_color(current);
+        slide(current+1);
+        if(current>=3)
+            current=0;
     })
-    $('#right_button').click(function () {
-        if($('.slide_box > li').is(':animated'))return false;
-        slide_box(num+1);
-        if(num>=3)
-            num=1;
 
-    });
 
     function pop_box_s() {
         $('#pop_box li').eq(num1).animate({left:-285},0);
@@ -119,6 +135,8 @@ $(document).ready(function () {
     popup1();
     popup2();
     table_click();
-    var slide1=setInterval(slide_box,2500);
+    setInterval(pop_box_s,2500);
+
+
     console.log(length);
         })
