@@ -113,3 +113,11 @@ dd > input{width: 400px;height: 38px;}
 #bt{height: 120px;padding-top: 40px;}
 #ok{width: 400px;height: 60px;margin: 0  auto;background: #4d87ef;border:#4d87ef;font-size:20px;color: white;display: block;padtop: 20px;}
 #box > img {padding-top: 30px;}
+#right_button {float: right;}
+.button_s{z-index: 1;line-height: 300px;width: 500px;height: 300px;float: left;}
+.button_s > a{font-size: 40px;color: white;}
+#button_box{position: absolute;width: 1000px;height: 300px;z-index: 1;}
+
+.main_slide{position: relative;width: 1000px;height: 300px;overflow: hidden;}
+#subnav{position: absolute;bottom: 10px;left: 10px;z-index: 999;}
+#subnav > li{width: 15px;height: 15px;border-radius: 50%;background: rgb(170,170,170);float: left;cursor: pointer;margin: 0 2px;}

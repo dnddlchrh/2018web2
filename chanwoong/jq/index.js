@@ -1,20 +1,40 @@
 $(document).ready(function () {
         var num=1;
         var num1=1;
+    var slide_index = 0;
         var dt=new Date();
         var nowyear = dt.getFullYear();
         var nowday = dt.getDate();
         var nowmonth = dt.getMonth()+1;
         var length=new Date(nowyear,nowmonth,0).getDate();
 
+
     function slide_box() {
+        if($('.slide_box > li').is(':animated'))return false;
         $('.slide_box li').eq(num).animate({left:-1000},0);
         $('.slide_box li').eq(num-1).animate({left:1000},500);
         $('.slide_box li').eq(num).animate({left:0},500);
+
         num++;
         if(num>=3)
             num=0;
     }
+    $('#left_button').click(function () {
+        console.log(333);
+        if($('.slide_box > li').is(':animated'))return false;
+        slide_box(num-1);
+        if(num>=3)
+            num=1;
+
+    })
+    $('#right_button').click(function () {
+        if($('.slide_box > li').is(':animated'))return false;
+        slide_box(num+1);
+        if(num>=3)
+            num=1;
+
+    });
+
     function pop_box_s() {
         $('#pop_box li').eq(num1).animate({left:-285},0);
         $('#pop_box li').eq(num1-1).animate({left:285},500);
@@ -99,7 +119,6 @@ $(document).ready(function () {
     popup1();
     popup2();
     table_click();
-    setInterval(slide_box,2500);
-    setInterval(pop_box_s,3500);
+    var slide1=setInterval(slide_box,2500);
     console.log(length);
         })
